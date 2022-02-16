@@ -8,4 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "TimeFormater"
 include ':app'
-include ':TimeFormater'
+include ':TimeFormatter'

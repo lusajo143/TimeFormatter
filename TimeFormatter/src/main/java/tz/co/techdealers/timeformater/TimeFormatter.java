@@ -6,11 +6,11 @@ import org.json.JSONObject;
 
 import java.util.Date;
 
-public class TimeFormater {
+public class TimeFormatter {
     private final long time;
     private long now;
 
-    public TimeFormater(long time) {
+    public TimeFormatter(long time) {
         this.time = time;
         this.now = new Date().getTime();
     }
